@@ -14,7 +14,7 @@ public class Pontuacao {
     }
 
     public void removerPontos(int pontos) {
-        if (pontuacao > pontos){
+        if (pontuacao >= pontos){
             pontuacao -= pontos;
         }
     }

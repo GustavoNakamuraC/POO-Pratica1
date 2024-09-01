@@ -19,7 +19,6 @@ public class GeradorDeSenhas {
             System.out.println("Escolha um tipo de caractere!!");
         }else{
             while(qtd != 0) {
-                int val = qtd;
                 cont = gerador.nextInt(4);
                 switch (cont){
                     case 0:{
